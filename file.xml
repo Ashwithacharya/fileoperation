@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="209dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#4E338E"
+        android:text="OPEN"
+        android:textSize="17sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/deleteButton"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#737171"
+        android:text="DELETE"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#F8EED4"
+        android:gravity="start|top"
+        android:hint="Enter text"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <TextView
+        android:id="@+id/filePathTextView"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:text="FILE APPLICATION"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="167dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#737171"
+        android:text="CREATE"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="161dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#4E338E"
+        android:text="SAVE"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <Button
+        android:id="@+id/renameButton"
+        android:layout_width="135dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#FF0000"
+        android:text="RENAME"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+    <!-- <Button-->
+<!-- android:id="@+id/renameButton"-->
+<!-- android:layout_width="wrap_content"-->
+<!-- android:layout_height="wrap_content"-->
+<!-- android:text="Rename"-->
+<!-- android:layout_marginTop="16dp"-->
+<!-- android:layout_below="@id/deleteButton"-->
+<!-- android:layout_alignParentStart="true"-->
+<!-- android:layout_alignParentLeft="true" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
